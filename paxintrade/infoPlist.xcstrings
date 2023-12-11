@@ -1,0 +1,35 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "NSCameraUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "this application requires camera permission to order the image"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "esta aplicación requiere permiso de la cámara para ordenar la imagen"
+          }
+        },
+        "ka-GE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ეს აპლიკაცია საჭიროებს კამერის ნებართვას სურათის შესაკვეთად"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "этому приложению требуется разрешение камеры для заказа изображения"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
