@@ -10,11 +10,15 @@
 	<string>this application requires microphone permission to record</string>
 	<key>NSCameraUsageDescription</key>
 	<string>this application requires camera permission to order the image</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>dev.paxintrade.backgroundTaskIdentifier</string>
+	</array>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>audio</string>
 		<string>fetch</string>
 		<string>processing</string>
-		<string>push-to-talk</string>
 		<string>remote-notification</string>
 		<string>voip</string>
 	</array>

@@ -8,24 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		CE3226552AD2C92500ED31AC /* paxintradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3226542AD2C92500ED31AC /* paxintradeApp.swift */; };
-		CE3226572AD2C92500ED31AC /* paxintradeDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3226562AD2C92500ED31AC /* paxintradeDocument.swift */; };
 		CE3226592AD2C92500ED31AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3226582AD2C92500ED31AC /* ContentView.swift */; };
 		CE32265B2AD2C92600ED31AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE32265A2AD2C92600ED31AC /* Assets.xcassets */; };
 		CE32265E2AD2C92600ED31AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE32265D2AD2C92600ED31AC /* Preview Assets.xcassets */; };
 		CE469D6F2AEA87BA00D1B391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE469D6E2AEA87BA00D1B391 /* Foundation.framework */; };
 		CE92AF312AFA1095009EADA6 /* infoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CE92AF302AFA1095009EADA6 /* infoPlist.xcstrings */; };
+		CED141782B241BB6007516C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED141772B241BB6007516C5 /* AppDelegate.swift */; };
+		CED1417A2B250AAE007516C5 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED141792B250AAE007516C5 /* CallKit.framework */; };
+		CED1417C2B250AB7007516C5 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED1417B2B250AB7007516C5 /* PushKit.framework */; };
+		CED1417E2B2511C4007516C5 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1417D2B2511C4007516C5 /* CallManager.swift */; };
+		CED141A72B25FA77007516C5 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = CED141A62B25FA77007516C5 /* WebRTC */; };
+		CED141A92B25FF85007516C5 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED141A82B25FF85007516C5 /* config.swift */; };
+		CED141AC2B2604EB007516C5 /* IceCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED141AB2B2604EB007516C5 /* IceCandidate.swift */; };
+		CED141AE2B26050D007516C5 /* RTCStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED141AD2B26050D007516C5 /* RTCStates.swift */; };
+		CED141B02B26052F007516C5 /* SessionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED141AF2B26052F007516C5 /* SessionDescription.swift */; };
+		CED141B32B261AEF007516C5 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED141B22B261AEF007516C5 /* WebRTCClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE3226512AD2C92500ED31AC /* paxintrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paxintrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3226542AD2C92500ED31AC /* paxintradeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paxintradeApp.swift; sourceTree = "<group>"; };
-		CE3226562AD2C92500ED31AC /* paxintradeDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paxintradeDocument.swift; sourceTree = "<group>"; };
 		CE3226582AD2C92500ED31AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE32265A2AD2C92600ED31AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE32265D2AD2C92600ED31AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE32265F2AD2C92600ED31AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE469D6E2AEA87BA00D1B391 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE92AF302AFA1095009EADA6 /* infoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = infoPlist.xcstrings; sourceTree = "<group>"; };
+		CED141762B2413D0007516C5 /* paxintrade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = paxintrade.entitlements; sourceTree = "<group>"; };
+		CED141772B241BB6007516C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED141792B250AAE007516C5 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
+		CED1417B2B250AB7007516C5 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		CED1417D2B2511C4007516C5 /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		CED141A82B25FF85007516C5 /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		CED141AB2B2604EB007516C5 /* IceCandidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCandidate.swift; sourceTree = "<group>"; };
+		CED141AD2B26050D007516C5 /* RTCStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCStates.swift; sourceTree = "<group>"; };
+		CED141AF2B26052F007516C5 /* SessionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDescription.swift; sourceTree = "<group>"; };
+		CED141B22B261AEF007516C5 /* WebRTCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +51,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED141A72B25FA77007516C5 /* WebRTC in Frameworks */,
 				CE469D6F2AEA87BA00D1B391 /* Foundation.framework in Frameworks */,
+				CED1417A2B250AAE007516C5 /* CallKit.framework in Frameworks */,
+				CED1417C2B250AB7007516C5 /* PushKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,13 +81,18 @@
 		CE3226532AD2C92500ED31AC /* paxintrade */ = {
 			isa = PBXGroup;
 			children = (
+				CED141B12B261ADE007516C5 /* Services */,
+				CED141AA2B2604A5007516C5 /* Extensions */,
+				CED1417D2B2511C4007516C5 /* CallManager.swift */,
+				CED141A82B25FF85007516C5 /* config.swift */,
+				CED141762B2413D0007516C5 /* paxintrade.entitlements */,
 				CE3226542AD2C92500ED31AC /* paxintradeApp.swift */,
-				CE3226562AD2C92500ED31AC /* paxintradeDocument.swift */,
 				CE3226582AD2C92500ED31AC /* ContentView.swift */,
 				CE32265A2AD2C92600ED31AC /* Assets.xcassets */,
 				CE32265F2AD2C92600ED31AC /* Info.plist */,
 				CE32265C2AD2C92600ED31AC /* Preview Content */,
 				CE92AF302AFA1095009EADA6 /* infoPlist.xcstrings */,
+				CED141772B241BB6007516C5 /* AppDelegate.swift */,
 			);
 			path = paxintrade;
 			sourceTree = "<group>";
@@ -82,9 +108,29 @@
 		CE469D6D2AEA87B900D1B391 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CED1417B2B250AB7007516C5 /* PushKit.framework */,
+				CED141792B250AAE007516C5 /* CallKit.framework */,
 				CE469D6E2AEA87BA00D1B391 /* Foundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED141AA2B2604A5007516C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CED141AB2B2604EB007516C5 /* IceCandidate.swift */,
+				CED141AD2B26050D007516C5 /* RTCStates.swift */,
+				CED141AF2B26052F007516C5 /* SessionDescription.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CED141B12B261ADE007516C5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CED141B22B261AEF007516C5 /* WebRTCClient.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +149,9 @@
 			dependencies = (
 			);
 			name = paxintrade;
+			packageProductDependencies = (
+				CED141A62B25FA77007516C5 /* WebRTC */,
+			);
 			productName = paxintrade;
 			productReference = CE3226512AD2C92500ED31AC /* paxintrade.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +184,9 @@
 				es,
 			);
 			mainGroup = CE3226482AD2C92500ED31AC;
+			packageReferences = (
+				CED141A52B25FA77007516C5 /* XCRemoteSwiftPackageReference "WebRTC" */,
+			);
 			productRefGroup = CE3226522AD2C92500ED31AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -162,9 +214,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3226572AD2C92500ED31AC /* paxintradeDocument.swift in Sources */,
+				CED141782B241BB6007516C5 /* AppDelegate.swift in Sources */,
 				CE3226552AD2C92500ED31AC /* paxintradeApp.swift in Sources */,
 				CE3226592AD2C92500ED31AC /* ContentView.swift in Sources */,
+				CED141B02B26052F007516C5 /* SessionDescription.swift in Sources */,
+				CED141A92B25FF85007516C5 /* config.swift in Sources */,
+				CED141B32B261AEF007516C5 /* WebRTCClient.swift in Sources */,
+				CED1417E2B2511C4007516C5 /* CallManager.swift in Sources */,
+				CED141AE2B26050D007516C5 /* RTCStates.swift in Sources */,
+				CED141AC2B2604EB007516C5 /* IceCandidate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +352,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = paxintrade/paxintrade.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"paxintrade/Preview Content\"";
 				DEVELOPMENT_TEAM = DBJ8D3U6HY;
 				ENABLE_PREVIEWS = YES;
@@ -303,6 +362,8 @@
 				INFOPLIST_FILE = paxintrade/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Paxintrade;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "this application requires camera permission to order the image";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "this application requires microphone permission to record";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,7 +375,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.paxintrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -328,9 +389,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = paxintrade/paxintrade.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"paxintrade/Preview Content\"";
 				DEVELOPMENT_TEAM = DBJ8D3U6HY;
 				ENABLE_PREVIEWS = YES;
@@ -338,6 +400,8 @@
 				INFOPLIST_FILE = paxintrade/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Paxintrade;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "this application requires camera permission to order the image";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "this application requires microphone permission to record";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -349,7 +413,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.paxintrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -381,6 +445,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CED141A52B25FA77007516C5 /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stasel/WebRTC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 120.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CED141A62B25FA77007516C5 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CED141A52B25FA77007516C5 /* XCRemoteSwiftPackageReference "WebRTC" */;
+			productName = WebRTC;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE3226492AD2C92500ED31AC /* Project object */;
 }
